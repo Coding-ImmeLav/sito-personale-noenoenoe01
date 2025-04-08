@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-color: cadetblue;
+    background-color: mediumaquamarine;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -31,13 +31,13 @@ header {
 }
 
 .hero {
-    background-color: cornflowerblue;
+    background-color: cornsilk;
     height: 92vh;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: white;   
+    color: mediumaquamarine;   
 }
 
 ul {
@@ -109,7 +109,7 @@ footer > div {
 
 .contenitore {
     width: 40%;
-    background-color: lightskyblue;
+    background-color: palegreen;
     height: 35%;
     margin: 30px;
     display: flex;
@@ -119,7 +119,7 @@ footer > div {
 
 /* animazione quando passo con il mouse sui contenitori  */
 .contenitore:hover {
-    background-color: lightsteelblue;
+    background-color: lemonchiffon;
     transition: 0.3s;
 }
 
@@ -145,6 +145,7 @@ footer > div {
     background-color: cadetblue;
     width: 100%;
     height: 10vh;
+    margin-top: 3vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -167,6 +168,9 @@ a {
     background-color: cadetblue;
     color: white;
     border: 1px solid white;
+    font-family: "boldonse";
+    padding: 10px 20px;
+    border-radius: 15px;
 }
 
 .bonus {
@@ -190,7 +194,7 @@ a {
 
 .relazione-terza {
     display: flex;
-    background-color: lightblue;
+    
     
 
 }
@@ -198,6 +202,7 @@ a {
 .sx, .dx{
     width: 50%;
     padding: 5%;
+    display: flex;
     justify-content: start;
     align-items: center;
     flex-direction: column;
@@ -209,3 +214,8 @@ a {
     padding: 3%;
 }
 
+.relazione-secondo {
+    display: flex;
+    background-color: lightgreen;
+
+}
