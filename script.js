@@ -14,3 +14,5 @@ function compariMenu() {
         a = 0;
     }
 }
+
+

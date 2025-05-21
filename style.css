@@ -84,8 +84,8 @@ footer {
 
 .info > a {
     text-decoration: none;
-    background-color: darkcyan;
-    color: white;
+    background-color: cornsilk;
+    color: mediumaquamarine;
     padding: 10px 8px;
     border-radius: 10px;
 }
@@ -105,9 +105,10 @@ footer > div {
     flex-wrap: wrap;
     justify-content: center; /* centro i rettangoli nella pagina */
     align-items: center;
+    
 }
 
-.contenitore {
+.contenitore1 {
     width: 40%;
     background-color: palegreen;
     height: 35%;
@@ -118,9 +119,61 @@ footer > div {
 }
 
 /* animazione quando passo con il mouse sui contenitori  */
-.contenitore:hover {
-    background-color: lemonchiffon;
+.contenitore1:hover {
     transition: 0.3s;
+    background: url(https://www.atipicishop.com/cdn/shop/articles/eminem-slim-shady-marshall-mathers-8-road-rap-god.jpg?v=1698938264) center/cover no-repeat;
+    color: transparent;
+}
+
+.contenitore2 {
+    width: 40%;
+    background-color: palegreen;
+    height: 35%;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* animazione quando passo con il mouse sui contenitori  */
+.contenitore2:hover {
+    transition: 0.3s;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCTS7aB_IBnrnMGZINXibJuRFvc3iEE7q20w&s) center/cover no-repeat;
+    color: transparent;
+}
+
+.contenitore3 {
+    width: 40%;
+    background-color: palegreen;
+    height: 35%;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* animazione quando passo con il mouse sui contenitori  */
+.contenitore3:hover {
+    transition: 0.3s;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT73Yi0tEoS8aLvvb2mj8ctV4DT7824wa6nqQ&s) center/cover no-repeat;
+    color: transparent;
+}
+
+.contenitore4 {
+    width: 40%;
+    background-color: palegreen;
+    height: 35%;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* animazione quando passo con il mouse sui contenitori  */
+.contenitore4:hover {
+    transition: 0.3s;
+    background: url(https://us.123rf.com/450wm/mitand73/mitand732201/mitand73220100078/181186025-vecchi-dispositivi-elettronici-su-sfondo-scuro-il-concetto-di-riciclaggio-e-smaltimento-dei-rifiuti.jpg?ver=6) center/cover no-repeat;
+    color: transparent;
 }
 
 .cv {
@@ -142,7 +195,7 @@ footer > div {
 }
 
 .fascia-download {
-    background-color: cadetblue;
+    background-color: palegreen;
     width: 100%;
     height: 10vh;
     margin-top: 3vh;
@@ -152,8 +205,8 @@ footer > div {
 }
 
 .bottone {
-    background-color: white;
-    color: cadetblue;
+    background-color: mediumaquamarine;
+    color: palegreen;
     font-family: "boldonse";
     border-radius: 15px;
     padding: 10px 20px;
@@ -165,9 +218,9 @@ a {
 }
 
 .bottone:hover {
-    background-color: cadetblue;
-    color: white;
-    border: 1px solid white;
+    background-color: palegreen;
+    color: mediumaquamarine;
+    border: 1px solid mediumaquamarine;
     font-family: "boldonse";
     padding: 10px 20px;
     border-radius: 15px;
@@ -194,7 +247,7 @@ a {
 
 .relazione-terza {
     display: flex;
-    
+    background-color: rgba(113, 242, 242, 0.727);
     
 
 }
@@ -219,3 +272,14 @@ a {
     background-color: lightgreen;
 
 }
+
+
+.intro-stage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(113, 242, 242, 0.727);
+}
+
+
+ 
