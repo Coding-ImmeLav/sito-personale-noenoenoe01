@@ -121,7 +121,7 @@ footer > div {
 /* animazione quando passo con il mouse sui contenitori  */
 .contenitore1:hover {
     transition: 0.3s;
-    background: url(https://www.atipicishop.com/cdn/shop/articles/eminem-slim-shady-marshall-mathers-8-road-rap-god.jpg?v=1698938264) center/cover no-repeat;
+    background: url(./imma/playlist.png) center/cover no-repeat;
     color: transparent;
 }
 
@@ -278,7 +278,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(113, 242, 242, 0.727);
+    background-color: rgba(213, 230, 230, 0.727);
 }
 
 
